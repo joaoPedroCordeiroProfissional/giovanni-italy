@@ -1,0 +1,41 @@
+.bgImg {
+  height: 510px;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  background: url("../images/BackgroundImage.png");
+  background-size: cover;
+}
+
+.hero {
+  text-align: center;
+  color: white;
+}
+
+.hero p {
+  font-size: 20px;
+  font-weight: 300;
+}
+.button { 
+  border-color: white;
+}
+.button a{
+  color: white;
+  margin: auto;
+}
+
+.button a:hover {
+  text-decoration: none;
+}
+
+.button a svg {
+  margin-left: 5px;
+  margin-bottom: 2px;
+  height: 24px;
+  width: 24px;
+}
