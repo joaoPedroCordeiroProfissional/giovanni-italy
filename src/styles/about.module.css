@@ -1,0 +1,39 @@
+.backgroundFigure {
+  margin-top: 50px;
+  background-color: black;
+  justify-content: center;
+}
+
+.titleDiv {
+  color: white;
+  width: 300px;
+  padding: 20px;
+  margin-left: 100px;
+}
+
+.outDiv {
+  margin-top: -50px;
+}
+
+.textAlingUp {
+  margin-top: 50px;
+  align-items: center;
+  text-align: center;
+}
+
+.textAling {
+  align-items: center;
+  text-align: center;
+}
+
+@media only screen and  (max-width: 768px){
+  .titleDiv {
+    color: white;
+    width: 300px;
+    margin: auto;
+  }
+
+  .outDiv {
+    margin-top: 50px;
+  }
+}

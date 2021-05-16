@@ -25,9 +25,7 @@ export default function Header() {
     <Navbar collapseOnSelect expand="md" variant="light" bg="white" sticky="top" className={styles}>
       <Navbar.Brand>
         <Link to="/">
-          <StaticImage className={styles.logoImage} src="../images/logo.png" placeholder="blurred"
-            width={102}
-            height={120} alt="GDF Logo" />
+          <StaticImage className={styles.logoImage} src="../images/logo.png" placeholder="blurred" alt="GDF Logo" />
         </Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />

@@ -1,3 +1,35 @@
-a {
-  text-decoration: underline;
+.textAling {
+  align-items: center;
+  text-align: center;
+}
+
+
+.lastPItem {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.bgColor {
+  background-color: #2A2A28;
+}
+
+
+.contentA {
+  align-items: center;
+  text-align: center;
+
+  color: white;
+  background-color: #2A2A28;
+}
+
+.contentRow {
+  margin-bottom: 50px;
+}
+
+.contentB {
+  color: white;
+  background-color: #8FB996;
+
+  
 }

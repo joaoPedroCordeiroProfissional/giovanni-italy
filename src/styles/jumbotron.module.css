@@ -1,6 +1,7 @@
 .bgImg {
   height: 510px;
   padding: 0;
+  margin-bottom: 50px;
 
   display: flex;
   flex-direction: column;

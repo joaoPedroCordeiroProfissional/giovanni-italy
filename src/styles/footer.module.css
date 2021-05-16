@@ -1,0 +1,18 @@
+h3 {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #CCCCCC;
+}
+
+.textAling {
+  padding-top: 30px;
+  padding-left: 25px !important;
+  padding-bottom: 50px;
+}
+
+.paragraph {
+  font-weight: 300;
+  font-size: 22px;
+}
