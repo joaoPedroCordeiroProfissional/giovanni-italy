@@ -1,9 +1,10 @@
 import React from "react";
 
-import { Container, Row, Col } from 'react-bootstrap';
-import { StaticImage } from "gatsby-plugin-image";
 import * as styles from "../styles/about.module.css";
 import Layout from "../components/Layout"
+import { Container, Row, Col } from 'react-bootstrap';
+import { StaticImage } from "gatsby-plugin-image";
+import CarouselComponent from "../components/Carousel";
 
 export default function About() {
   return (
@@ -35,10 +36,10 @@ export default function About() {
 
 
         <Row className={styles.contentRow}>
-          <Col md>
+          <Col xl={6} md>
             <StaticImage src="../images/terracedHouses.jpeg" placeholder="blurred" alt="Terraced Houses" />
           </Col>
-          <Col className={styles.contentA} md>
+          <Col className={styles.contentA} xl={6} md>
             <div className={styles.contentDiv}>
               <h4 className={styles.contentTitleA}>The best choice for :</h4>
               <h2>Workers</h2>
@@ -72,6 +73,21 @@ export default function About() {
           <button className={styles.secondBtn}>Contact us</button>
         </Row>
 
+  
+        <Row className={styles.carouselRow}> 
+          <Col className={styles.dottedLineDiv}lg={3} md>
+            <hr className={styles.dottedLine}/>
+          </Col>
+          <Col lg={6}  md>
+            <div className={styles.carouselTitle}>
+              <h1>The Accomodation You Need</h1>
+            </div>            
+          </Col>
+          <Col className={styles.dottedLineDiv}lg={3} md>
+            <hr className={styles.dottedLine}/>
+          </Col>
+        </Row>
+        <CarouselComponent />
       </Container>
     </Layout>
   )

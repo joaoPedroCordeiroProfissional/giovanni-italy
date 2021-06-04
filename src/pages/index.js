@@ -15,13 +15,13 @@ export default function Home() {
         <Container fluid>
           <Row>
             <Col className={styles.textAling} md>
-              <h3>Quisque est urna pharetra ultrices ?</h3>
+              <h2>Why keep looking when we can find you the best ?</h2>
             </Col>
           </Row>
 
           <Row>
-            <Col className={styles.textAling} md>
-              <p>Phasellus mollis, leo congue tincidunt aliquet, augue lacus tincidunt arcu, nec facilisis dui libero nec ipsum. Nullam ac ex sit amet dolor auctor molestie.</p>
+            <Col className={styles.subtitle} md>
+              <p>At GDF we do all the work and save your time & money</p>
             </Col>
           </Row>
 
@@ -29,7 +29,12 @@ export default function Home() {
             <Col md>
               <StaticImage src="../images/shearchHouse.png" placeholder="blurred" alt="House Search" />
             </Col>
-            <Col md><p>Phasellus mollis, leo congue tincidunt aliquet, augue lacus tincidunt arcu, nec facilisis dui libero nec ipsum. Nullam ac ex sit amet dolor auctor molestie. Phasellus mollis, leo congue tincidunt aliquet, augue lacus tincidunt arcu, nec facilisis dui libero nec ipsum. Phasellus mollis, leo congue tincidunt aliquet, augue lacus tincidunt arcu, nec facilisis dui libero nec ipsum. Nullam ac ex sit amet dolor auctor molestie.</p>
+            <Col md>
+              <p>
+                We have a professional and expert team of real estate brokers, 
+                analists and personal adivisers that can ensure you the best deal in the city.
+                We do all the seaching, visiting and negotiating boring part leaving for you just the best part, make the choice
+              </p>
             </Col>
             <Col md>
               <StaticImage src="../images/houseChoice.png" placeholder="blurred" alt="House Options" />

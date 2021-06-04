@@ -8,15 +8,19 @@ import * as styles from "../styles/jumbotron.module.css"
 
 export default function BackgroundCover() {
   return (
-    <Jumbotron className={styles.bgImg} fluid>
-      <div className={styles.hero}>
-        <h1>Here yours Needs are fulfilled</h1>
-        <p>
-          The best accommodations you can find
+    <div className={styles.overlay}>
+      <Jumbotron className={styles.bgImg} fluid>
+        <div className={styles.hero}>
+          <h1>Here yours Needs are fulfilled</h1>
+          <p>
+            The best accommodations you can find
         </p>
-        <Button className={styles.button}variant="outline-danger" size="lg"><a href="https://wa.me/+447472371528?text=I'd%20like%20in%20to%20get%20a%20room!">Contac us via <FaWhatsapp /></a></Button>
-      </div>
-    </Jumbotron>
+          <div className={styles.buttonDiv}>
+            <Button className={styles.button} variant="danger" size="lg"><a href="https://wa.me/+447472371528?text=I'd%20like%20in%20to%20get%20a%20room!">Contac us via <FaWhatsapp /></a></Button>
+          </div>
+        </div>
+      </Jumbotron>
+    </div>
   )
 }
 

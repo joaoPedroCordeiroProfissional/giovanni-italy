@@ -35,8 +35,8 @@ export default function Header() {
           <Nav.Link></Nav.Link>
         </Nav>
         <Nav>
+        <Nav.Link><Link to="/">Home</Link></Nav.Link>
           <Nav.Link><Link to="/about">About</Link></Nav.Link>
-          <Nav.Link><Link to="/">Home</Link></Nav.Link>
           <Button variant="danger" size="md" className={styles.phone}><a href="tel:+44 7446 157840"><FiPhoneIncoming  className={styles.phoneIcon}/>+44 7446 157840</a></Button>
         </Nav>
       </Navbar.Collapse>

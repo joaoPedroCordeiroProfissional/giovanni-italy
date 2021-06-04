@@ -3,6 +3,14 @@
   text-align: center;
 }
 
+.subtitle p{
+  align-items: center;
+  text-align: center;
+
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+
 
 .lastPItem {
   align-items: center;
