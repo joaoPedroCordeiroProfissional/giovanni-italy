@@ -31,20 +31,15 @@ export default function Home() {
             </Col>
             <Col md>
               <p>
-                We have a professional and expert team of real estate brokers, 
-                analists and personal adivisers that can ensure you the best deal in the city.
-                We do all the seaching, visiting and negotiating boring part leaving for you just the best part, make the choice
+                We have a professional and expert team of real estate brokers,
+                analysts and personal advisers that can ensure you the best deal in the city.
+                We do all the seaching, visiting and negotiating the best opportunities that fit your needs.
+                Making you choice much easer!
               </p>
             </Col>
             <Col md>
               <StaticImage src="../images/houseChoice.png" placeholder="blurred" alt="House Options" />
 
-            </Col>
-          </Row>
-
-          <Row className={styles.lastPItem} md>
-            <Col>
-              <p>Phasellus mollis, leo congue tincidunt aliquet, augue lacus tincidunt arcu, nec facilisis dui libero nec ipsum. Nullam ac ex sit amet dolor auctor molestie.</p>
             </Col>
           </Row>
 
@@ -54,13 +49,13 @@ export default function Home() {
                 <h3>Why to keep looking ?</h3>
 
                 <p>
-                  At GDF, We offer different types of accommodations that can vary form a simple sleep over room to a house or apartament rent.
-                  <br />
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tellus ipsum, pharetra non bibendum at, volutpat non diam.
-                  Integer eget blandit ante, ac posuere turpis.
-                  <br />
-                  Duis at nisl lobortis, placerat libero ut, tempor justo.
-                  Suspendisse consequat dolor arcu, nec accumsan odio mollis at.
+                  At GDF we offer different types of accommodations that can vary form a simple sleep over room to a house or apartament rent.
+                </p>
+                  <p>
+                  No more headaches when looking for a new home or planning a new trip we take care of everything for you!                  </p>
+                  <p>
+                  From our website or social media you can have access to all the available opportunities at the moment. 
+                  If you're looking for something specific, don't worry, contact us right now so we'll find the best for you!
                 </p>
               </div>
             </Col>
@@ -74,42 +69,41 @@ export default function Home() {
             <Col md>
               <StaticImage src="../images/homeImg.png" placeholder="blurred" alt="Home" />
             </Col>
-            <Col md>
-              <h3>Neque porro quisquam est </h3>
+            <Col className={styles.contentB} md>
+              <h3>The perfect match</h3>
               <p>
-                Duis sodales leo vitae elit dignissim, quis hendrerit magna bibendum. Ut libero nisl, fringilla ac rhoncus eu, aliquet non erat.
-                Morbi in tincidunt ipsum.
+                Our team is engaged to find your perfect mach an downtown appartment, 
+                a detached house in a great neighborhood or a more sophisticated suburbs house.
               </p>
 
               <p>
-                In pulvinar, tellus sed posuere sagittis, nisi ligula fermentum nisl, pulvinar consequat lorem sem eget diam.
+                We have a intuitive and sophisticated survey form that guides our team of 
+                astonishing professional to find our dream home or perfect hotel room 99% of the time.
               </p>
 
               <p>
-                Pellentesque nec orci interdum, porttitor nisl finibus, dignissim erat.
-                Aliquam hendrerit pellentesque ipsum, pretium
-              </p>
-
-              <p>
-                accumsan lorem rhoncus sit amet. Ut hendrerit tellus eget elit dignissim cursus
+                Contact us to learn more about our business model and help you find your match!
               </p>
             </Col>
           </Row>
 
           <Row className={styles.contentRow}>
-            <Col className={styles.contentB} md>
-              <h3>Neque porro quisquam est </h3>
+            <Col className={styles.contentC} md>
+              <h3>Choosing the Right Candidate</h3>
 
-              <p>
-                Integer et augue neque. In id libero vitae arcu imperdiet molestie vitae ut est. Etiam a lectus consequat, sagittis magna id, finibus enim.
+              <p> 
+                Once you've completed the form and sent it to us in a few days we'll have all the data and opportunities 
+                covered for you. 
               </p>
 
               <p>
-                Mauris at lacus dignissim, consequat neque porttitor, aliquam neque. Nam ut mollis augue.
+                So it's time to meet at our office or online to discuss all the properties that 
+                out team discovered for you and present all the important informations and contracts specifications.
               </p>
 
               <p>
-                Phasellus mollis, leo congue tincidunt aliquet, augue lacus tincidunt arcu, nec facilisis dui libero nec ipsum.
+                Finally, you can decide the best match for you and GDF will arrange all the visitings and clarify any 
+                doubts.
               </p>
             </Col>
             <Col md>
@@ -118,23 +112,21 @@ export default function Home() {
           </Row>
 
           <Row className={styles.contentRow}>
-            <Col md>
-              <h3>Quisque efficitur mauris eu </h3>
+            <Col className={styles.contentD} md>
+              <h3>The happiest cene</h3>
               <p>
-                In hac habitasse platea dictumst. Sed sem justo, luctus nec eros eu, interdum volutpat ante.
+                Our goal to make your life better in a better place is so strong that you'll be enjoying your 
+                renewed life along with your family in a few days after the first contact with our team.
+              </p>
 
-                Proin pharetra tortor ipsum, sit amet varius ante ullamcorper a. In in tempus tortor, at interdum erat.
-              <br />
+              <p>
+                All that headache that you were costumed to when moving to a new home or booked a hotel, forget it. 
+                That's the past, we're your future choice for a fast and high-quality real estate agency!
+              </p>
 
-              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-
-              <br />
-
-              Donec interdum odio vitae nunc volutpat sodales. Vestibulum ante ipsum primis in faucibus orci luctus
-              et ultrices posuere cubilia curae; Fusce ac euismod nisl.
-              <br />
-              Donec vel ligula ac eros consequat scelerisque quis non tellus. Phasellus vitae tempus odio.
-            </p>
+              <p>
+                Think happy, think safe, choose GDF.
+              </p>
             </Col>
 
             <Col md>
