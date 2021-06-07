@@ -23,8 +23,13 @@ export default function Footer() {
           <p className={styles.paragraph}>Basingstoke</p>
           <p className={styles.paragraph}>United Kingdom</p>
           <p className={styles.paragraph}>
-            <a href="tel:+44 7447 157840"> 
-              Mobile Phone: +44 7447 157840
+            <a href="tel:+44 7577 081227"> 
+              Mobile Phone: +44 7577 081227
+            </a>
+          </p>
+          <p className={styles.paragraph}>
+            <a href="tel:+44 1256 964842"> 
+              Comercial Phone: +44 1256 964842
             </a>
           </p>
           <p className={styles.paragraph}>Landline: 01256279387</p>

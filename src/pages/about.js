@@ -51,7 +51,9 @@ export default function About() {
         </Row>
 
         <Row className={styles.buttonRow}>
-          <button className={styles.firstBtn}>Contact us</button>
+          <a href="https://wa.me/+447577081227?text=I'd%20like%20in%20to%20get%20a%20room!" target="_blank" rel="noreferrer">
+            <button className={styles.firstBtn}>Contact us</button>
+          </a>
         </Row>
 
         <Row className={styles.contentRow}>
@@ -70,21 +72,23 @@ export default function About() {
         </Row>
 
         <Row className={styles.buttonRow}>
+        <a href="https://wa.me/+447577081227?text=I'd%20like%20in%20to%20get%20a%20room!" target="_blank" rel="noreferrer">
           <button className={styles.secondBtn}>Contact us</button>
+        </a>
         </Row>
 
-  
-        <Row className={styles.carouselRow}> 
-          <Col className={styles.dottedLineDiv}lg={3} md>
-            <hr className={styles.dottedLine}/>
+
+        <Row className={styles.carouselRow}>
+          <Col className={styles.dottedLineDiv} lg={3} md>
+            <hr className={styles.dottedLine} />
           </Col>
-          <Col lg={6}  md>
+          <Col lg={6} md>
             <div className={styles.carouselTitle}>
               <h1>The Accomodation You Need</h1>
-            </div>            
+            </div>
           </Col>
-          <Col className={styles.dottedLineDiv}lg={3} md>
-            <hr className={styles.dottedLine}/>
+          <Col className={styles.dottedLineDiv} lg={3} md>
+            <hr className={styles.dottedLine} />
           </Col>
         </Row>
         <CarouselComponent />

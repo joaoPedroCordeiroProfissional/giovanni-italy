@@ -5,21 +5,9 @@ import { FiPhoneIncoming } from "@react-icons/all-files/fi/FiPhoneIncoming";
 import { Navbar, Nav, Button } from 'react-bootstrap';
 
 import { Link } from "gatsby";
-// import {graphql, useStaticQuery } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
 export default function Header() {
-  // const data = useStaticQuery(graphql`
-  //   query SiteInfo {
-  //     site {
-  //       siteMetadata {
-  //         title
-  //       }
-  //     }
-  //   }
-  // `)
-
-  // const { title } = data.site.siteMetadata
 
   return (
     <Navbar collapseOnSelect expand="md" variant="light" bg="white" sticky="top" className={styles}>
@@ -37,20 +25,9 @@ export default function Header() {
         <Nav>
         <Nav.Link><Link to="/">Home</Link></Nav.Link>
           <Nav.Link><Link to="/about">About</Link></Nav.Link>
-          <Button variant="danger" size="md" className={styles.phone}><a href="tel:+44 7446 157840"><FiPhoneIncoming  className={styles.phoneIcon}/>+44 7446 157840</a></Button>
+          <Button variant="danger" size="md" className={styles.phone}><a href="tel:+44 7577 081227"><FiPhoneIncoming  className={styles.phoneIcon}/>+44 7577 081227</a></Button>
         </Nav>
       </Navbar.Collapse>
     </Navbar >
   )
 }
-// export const query = graphql`
-//   query Logo {
-//     file(relativePath: { eq: "logo.png" }) {
-//       childImageSharp {
-//         fluid {
-//           ...GatsbyImageSharpFluid
-//         }
-//       }
-//     }
-//   }
-// `

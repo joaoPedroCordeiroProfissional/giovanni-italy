@@ -1,6 +1,6 @@
 import React, { useLayoutEffect, useState, useEffect }from "react";
 
-import { Container, Card, Button } from 'react-bootstrap';
+import { Card, Button } from 'react-bootstrap';
 import Carousel from 'react-elastic-carousel'
 import * as styles from "../styles/carousel.module.css";
 import DualBed from "../images/dualBed.jpeg";
@@ -34,7 +34,6 @@ export default function CarouselComponent() {
   }, [carouselItems, width])
   
   return (
-    <Container>
       <div className={styles.sliderDiv}>
         <Carousel itemsToShow={carouselItems}>
           <div>
@@ -45,7 +44,7 @@ export default function CarouselComponent() {
                 <Card.Text>
                 Low-cost, short-term shared sociable lodging where guests can rent a bed, usually a bunk bed in a dormitory, with shared use of a lounge and sometimes a kitchen.
                 </Card.Text>
-                <Button href="tel:+44 7447 157840" variant="info">Contact us</Button>
+                  <Button href="https://wa.me/+447577081227?text=I'd%20like%20in%20to%20get%20a%20room!" target="_blank" variant="info">Contact us</Button>
               </Card.Body>
             </Card>
           </div>
@@ -57,7 +56,7 @@ export default function CarouselComponent() {
                 <Card.Text>
                  We can offer you vary hotem room types that can vary from a single/double to a king/double-double rooms. 
                 </Card.Text>
-                <Button href="tel:+44 7447 157840" variant="info">Contact us</Button>
+                <Button href="https://wa.me/+447577081227?text=I'd%20like%20in%20to%20get%20a%20room!" target="_blank"  variant="info">Contact us</Button>
               </Card.Body>
             </Card>
           </div>
@@ -68,13 +67,11 @@ export default function CarouselComponent() {
                 <Card.Title>Small Apartment/Studio</Card.Title>
                 <Card.Text>
                 We offer different opportunities for renting or sharing a small apartment/studio.                </Card.Text>
-                <Button variant="info">Go somewhere</Button>
+                <Button href="https://wa.me/+447577081227?text=I'd%20like%20in%20to%20get%20a%20room!" target="_blank"  variant="info">Contact us</Button>
               </Card.Body>
             </Card>
           </div>
         </Carousel>
       </div>
-    </Container>
-
   );
 }

@@ -16,7 +16,7 @@ export default function BackgroundCover() {
             The best accommodations you can find
         </p>
           <div className={styles.buttonDiv}>
-            <Button className={styles.button} variant="danger" size="lg"><a href="https://wa.me/+447472371528?text=I'd%20like%20in%20to%20get%20a%20room!">Contac us via <FaWhatsapp /></a></Button>
+            <Button href="https://wa.me/+447577081227?text=I'd%20like%20in%20to%20get%20a%20room!" target="_blank" rel="noreferrer" className={styles.button} variant="danger" size="lg">Contac us via <FaWhatsapp /></Button>
           </div>
         </div>
       </Jumbotron>
