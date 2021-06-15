@@ -52,9 +52,9 @@ export default function CarouselComponent() {
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src={HotelRoom} alt="Hotel Room" />
               <Card.Body>
-                <Card.Title>Hotel Room</Card.Title>
+                <Card.Title>Shared accommodation</Card.Title>
                 <Card.Text>
-                 We can offer you vary hotem room types that can vary from a single/double to a king/double-double rooms. 
+                 We can offer you a very confy room in a house or flat and share other rooms like the living area, kitchen and sometimes the bathroom.
                 </Card.Text>
                 <Button href="https://wa.me/+447577081227?text=I'd%20like%20in%20to%20get%20a%20room!" target="_blank"  variant="info">Contact us</Button>
               </Card.Body>

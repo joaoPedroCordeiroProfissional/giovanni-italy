@@ -91,8 +91,8 @@ export default function About() {
             <hr className={styles.dottedLine} />
           </Col>
         </Row>
-        <CarouselComponent />
       </Container>
+        <CarouselComponent />
     </Layout>
   )
 }
