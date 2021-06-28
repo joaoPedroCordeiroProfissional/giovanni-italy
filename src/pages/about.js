@@ -1,7 +1,7 @@
 import React from "react";
 
 import * as styles from "../styles/about.module.css";
-import Layout from "../components/Layout"
+import Layout from "../components/Layout";
 import { Container, Row, Col } from 'react-bootstrap';
 import { StaticImage } from "gatsby-plugin-image";
 import CarouselComponent from "../components/Carousel";
