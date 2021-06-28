@@ -54,7 +54,7 @@ export default function CarouselComponent() {
               <Card.Body>
                 <Card.Title>Shared accommodation</Card.Title>
                 <Card.Text>
-                 We can offer you a very confy room in a house or flat and share other rooms like the living area, kitchen and sometimes the bathroom.
+                  We can offer you a very confy room in a house or flat and share other rooms like the living area, kitchen and sometimes the bathroom.
                 </Card.Text>
                 <Button href="https://wa.me/+447577081227?text=I'd%20like%20in%20to%20get%20a%20room!" target="_blank"  variant="info">Contact us</Button>
               </Card.Body>

@@ -8,7 +8,7 @@
 module.exports = {
   siteMetadata: {
     title: `GDF - Giovanni Italy`,
-    siteUrl: `https://www.gdf.com`,
+    siteUrl: `https://www.gdfhousing.com`,
     description: `Your time saver when searching rents, homes or apartments`,
     copyright: "© 2021 Copyright: GDF",
     social: [
