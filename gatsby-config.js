@@ -30,7 +30,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://www.example.com`,
+        siteUrl: `https://www.gdfhousing.com`,
       },
     },
     {
@@ -38,20 +38,6 @@ module.exports = {
       options: {
         // The property ID; the tracking code won't be generated without it
         trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `projects`,
-        path: `${__dirname}/src/projects/`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images/`,
       },
     },
   ],
