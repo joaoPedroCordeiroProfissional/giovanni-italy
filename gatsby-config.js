@@ -7,16 +7,12 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'GDF - Giovanni Italy',
+    title: 'GDF Housing - Rental Solutions',
     siteUrl: 'https://www.gdfhousing.com',
-    description: `Your time saver when searching rents, homes or apartments`,
+    description: `Your time saver when searching rents, homes or apartments. Your trustworthy real estate agent is right here!`,
+    author: 'GDF Housing',
     copyright: "© 2021 Copyright: GDF",
-    social: [
-      {
-        name: "instagram",
-        url: "http://www.instagram.com/gdf_enterprise",
-      },
-    ],
+    keywords: 'real state, property, rental, summer rental, cheap rental',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
