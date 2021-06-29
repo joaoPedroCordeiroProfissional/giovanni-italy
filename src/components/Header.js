@@ -24,12 +24,8 @@ export default function Header() {
         </Nav>
 
         <Nav>
-          <Nav.Link>
             <Link to="/" className={styles.navLink}>Home</Link>
-          </Nav.Link>
-          <Nav.Link>
             <Link to="/about" className={styles.navLink}>About</Link>
-            </Nav.Link>
         </Nav>
 
         <Button variant="danger" size="md" className={styles.phone}><a href="tel:+44 7577 081227"><FiPhoneIncoming  className={styles.phoneIcon}/>+44 7577 081227</a></Button>
