@@ -16,3 +16,15 @@ h3 {
   font-weight: 300;
   font-size: 22px;
 }
+
+.paragraph a {
+  font-weight: 300;
+  font-size: 22px;
+  text-decoration: none;
+  color: #212529;
+}
+
+.paragraph a:hover {
+  color: #33BDD8;
+  cursor: pointer;
+}

@@ -7,8 +7,6 @@ import Footer from "./Footer";
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../styles/global.css"
 
-
-
 export default function Layout({ children }) {
   return (
     <div className="layout">
