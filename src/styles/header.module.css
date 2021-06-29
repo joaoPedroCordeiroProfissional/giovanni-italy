@@ -14,7 +14,11 @@
   margin-left: 20px;
 }
 .phone a {
-  color: white;
+  color: #FFFFFF;
+  margin: auto;
+}
+.phone a:hover {
+  color: #FFFFFF;
   margin: auto;
 }
 
