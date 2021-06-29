@@ -11,6 +11,7 @@ export default function NotFound() {
           <meta charSet="utf-8" />
           <title>GDF Housing - About us</title>
           <link rel="canonical" href="https://www.gdfhousing.com/about" />
+          <meta name="google-site-verification" content="ApHzkWs3rsYhB3qeqxh4W0l5GVvnvxhblQed1H-rEC0" />
           <meta name="title" content="GDF Housing - Rental Solutions" />
           <meta name="description" content="Your trustworthy real estate agent is right here!" />
           <meta property="og:type" content="website" />
