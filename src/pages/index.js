@@ -21,7 +21,7 @@ export default function Home() {
           <meta name="title" content="GDF Housing - Rental Solutions" />
           <meta name="description" content="Your trustworthy real estate agent is right here!" />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://www.gdfhousing.com" />
+          <meta data-react-helmet="true" property="og:url" content="https://www.gdfhousing.com" />
           <meta property="og:title" content="GDF Housing - Rental Solutions" />
           <meta property="og:description" content="Your trustworthy real estate agent is right here!" />
           <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png" />
