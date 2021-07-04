@@ -5,6 +5,7 @@ import Layout from "../components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
 // import  Seo from '../components/Seo';
 import { Helmet } from "react-helmet";
+import Logo from "../images/logo.png";
 
 import { Container, Row, Col } from 'react-bootstrap';
 import * as styles from "../styles/about.module.css";
@@ -23,7 +24,7 @@ export default function About() {
           <meta property="og:url" content="https://www.gdfhousing.com" />
           <meta property="og:title" content="GDF Housing - Rental Solutions" />
           <meta property="og:description" content="Your trustworthy real estate agent is right here!" />
-          <meta property="og:image" content="../images/logo.png"  />
+          <meta property="og:image" content={Logo} />
         </Helmet>
       <Container fluid>
         <Row>

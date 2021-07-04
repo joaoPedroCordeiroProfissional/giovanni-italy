@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/Layout";
 // import  Seo from '../components/Seo';
 import { Helmet } from "react-helmet";
+import Logo from "../images/logo.png";
 
 export default function NotFound() {
   return (
@@ -18,7 +19,7 @@ export default function NotFound() {
           <meta property="og:url" content="https://www.gdfhousing.com" />
           <meta property="og:title" content="GDF Housing - Rental Solutions" />
           <meta property="og:description" content="Your trustworthy real estate agent is right here!" />
-          <meta property="og:image" content="../images/logo.png" />
+          <meta property="og:image" content={Logo} />
         </Helmet>
       <h2>404</h2>
       <p>Sorry, this page doesn't exist.</p>
