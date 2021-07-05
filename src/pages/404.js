@@ -19,7 +19,7 @@ export default function NotFound() {
           <meta property="og:url" content="https://www.gdfhousing.com" />
           <meta property="og:title" content="GDF Housing - Rental Solutions" />
           <meta property="og:description" content="Your trustworthy real estate agent is right here!" />
-          <meta property="og:image" content={Logo} />
+          <meta property="og:image" content="https://www.gdfhousing.com/logo.png" />
         </Helmet>
       <h2>404</h2>
       <p>Sorry, this page doesn't exist.</p>
