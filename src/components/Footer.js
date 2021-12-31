@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react"
 
-import { Container, Row, Col } from "react-bootstrap";
-import * as styles from "../styles/footer.module.css";
-import { Link } from "gatsby";
+import { Container, Row, Col } from "react-bootstrap"
+import * as styles from "../styles/footer.module.css"
+import { Link } from "gatsby"
 
 export default function Footer() {
   return (
@@ -10,9 +10,15 @@ export default function Footer() {
       <Row>
         <Col className={styles.textAling} md>
           <h3>Menu</h3>
-          <p className={styles.paragraph}><Link to="/">Home</Link></p>
-          <p className={styles.paragraph}><Link to="/about">About</Link></p>
-          <p className={styles.paragraph}><Link to="/">Rooms</Link></p>
+          <p className={styles.paragraph}>
+            <Link to="/">Home</Link>
+          </p>
+          <p className={styles.paragraph}>
+            <Link to="/about">About</Link>
+          </p>
+          <p className={styles.paragraph}>
+            <Link to="/">Rooms</Link>
+          </p>
         </Col>
         <Col className={styles.textAling} md>
           <h3>Hours:</h3>
@@ -23,16 +29,11 @@ export default function Footer() {
           <p className={styles.paragraph}>Basingstoke</p>
           <p className={styles.paragraph}>United Kingdom</p>
           <p className={styles.paragraph}>
-            <a href="tel:+44 7577 081227"> 
-              Mobile Phone: +44 7577 081227
-            </a>
+            <a href="tel:+44 7577 081227">Mobile Phone: +44 7577 081227</a>
           </p>
           <p className={styles.paragraph}>
-            <a href="tel:+44 1256 964842"> 
-              Comercial Phone: +44 1256 964842
-            </a>
+            <a href="tel:+44 1256 279532">Comercial Phone: +44 1256 279532</a>
           </p>
-          <p className={styles.paragraph}>Landline: 01256279387</p>
         </Col>
       </Row>
     </Container>
